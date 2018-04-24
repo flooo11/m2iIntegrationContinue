@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace IntegrationContinue
 {
-    public class Class1
+    public class Calcul
     {
+        public static int GetInt(string str)
+        {
+            return (int.Parse(str)+1);
+        }
     }
 }
