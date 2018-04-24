@@ -10,7 +10,7 @@ namespace IntegrationContinue
     {
         public static int GetInt(string str)
         {
-            return (int.Parse(str)+1);
+            return (int.Parse(str));
         }
     }
 }
